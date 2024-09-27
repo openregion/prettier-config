@@ -8,10 +8,10 @@ Install package
 npm install --save-dev @openregion/prettier-config
 ```
 
-Create `.prettierrc.js` file with this content
+Create `.prettierrc.mjs` file with this content
 
 ```javascript
-import openRegionPrettierConfig from "@openregion/prettier-config";
+import openRegionPrettierConfig from '@openregion/prettier-config';
 
 export default {
   ...openRegionPrettierConfig,
